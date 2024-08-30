@@ -52,6 +52,9 @@ ____________________________
       2. Create a virtual Environment in the "RPi Gui" directory.
       3. After connecting the connect the stethoscope prototyp, Check the audio device card configration by running the command "arecord -l", and change it accordingly as             instructed on line 48 on "SmartSteth24.py". 
 
-For any Inquiries, e-mail me at 1079869@students.adu.ac.ae, thank you! 
+**6. SmartSteth.txt**
+      This file includes a one drive link that containes the heart sounds and lung sounds recorded by our stethoscope prototype, filtered and modified manually by us, we           made it available for any students or researchers interested to implement any project or research that needs extra data, we're happy to be able to benifit others on          the field, and we hope it'll be useful for them.
+
+For any Inquiries, e-mail me Samah Osama, at 1079869@students.adu.ac.ae, thank you! 
 
       
