@@ -10,7 +10,7 @@ A walk through to the available files:
 **2. SmartSteth.py**
       It's the extened GUI code from Matlab to Python, and was used for the data collection stage since we found our methods of recording the audio had better qualit in python       than Matlab. The GUI is also able to Record, Play, and save the heart sounds and lung sounds into their specific folders;
 
-      **To use it:**
+      To use it:
       Make sure to to 
       1. Download all the needed libraries.
       2. Save "SmartSteth.py" in a directory with addition to two files "Heart Sounds Samples" and "Lung Sounds Samples".
