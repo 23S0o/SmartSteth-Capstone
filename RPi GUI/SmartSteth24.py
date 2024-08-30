@@ -45,6 +45,8 @@ def H_record():
     global scaled_amplitudes, raw_audio
     duration_seconds = 5
     ax.clear()  # Clear previous plot
+    # This command records the audio based on the audio device configration, if your targeted input is on "Card 2", then 
+      # its as shown on the command as "hw:2,0", and if its a different card, then similarly change it accordingly.
     command = ["arecord", "-D", "hw:2,0", "-d", str(duration_seconds), "-f", "S16_LE", "-r", "44100", "-t", "wav", "-"]
     
     try:
