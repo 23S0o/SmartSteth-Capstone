@@ -1,0 +1,4 @@
+0 Normal
+1 AS
+2 MR
+3 MS
