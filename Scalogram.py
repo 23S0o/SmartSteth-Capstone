@@ -18,12 +18,8 @@ from scipy.signal import find_peaks
 import glob
 
 # specify your file number
-# Get the file number from the user
-#file_number = input("Please enter the file number: ")
 file_number = 'MS10.mp3'
-#file_number = input("Please enter the file name/number: ")
-# 327
-# 1, 7, 17, 19, 20, 21, 24, 28, 30, 32, 33, 37, 38, 40, 41, 43, 45, 49, 53, 55, 56, 57, 58, 59
+
 # Continous Wavelet Transform with Morlet wavelet
 # Original code by Alexander Neergaard, https://github.com/neergaard/CWT
 #
