@@ -28,7 +28,7 @@ ____________________________
       This is the open-source Scalogram code that generate scalogram images from audio files, the original source of this code is:
       https://www.kaggle.com/code/mistag/extracting-bird-song-signatures-with-wavelets
 
-      To use it:
+      **To use it:**
       2. Create two folder in the same directory as "Scalogram.py":
             1. "btbwar": save your audio there.
             2. "tmp": where your audio scalogram will be saved
@@ -36,7 +36,22 @@ ____________________________
 
 ____________________________
 
-**5. SmartSteh24.py**
-      This is the final GUI implemented on Raspberry pi, where it allow the user to record, play, save, and get the classification result of the recording.
+**5. RPi GUI**
+      This is the Raspberry Pi folder format used as the the final GUI, where it allow the user to record, play, save, and get the classification result of the recording.
 
-      To use it:
+      **It consists of:**
+      - The main code: "SmartSteh24.py"
+      - The heart sound classification code "HS_class.py"
+      - The Lung sound classification code "LS_class.py"
+      - A temporary audio file "temp.wav" for the purpose of playing the recorded sound.
+      - "Heart Sound" folder that contain the classification model and labels, and two folders: "btbwar" that includes the saved audio, and "tmp" that stores the generated           scalogram.
+      - "Lung Sound" folder that contain the classification model and labels, and the two folders: "btbwar" that includes the saved audio, and "tmp" that stores the                   generated scalogram.
+      
+      **Note:** if not used whithin the original RPi, and the user is using a new RPi:
+      1. Install all the needed libraries.
+      2. Create a virtual Environment in the "RPi Gui" directory.
+      3. After connecting the connect the stethoscope prototyp, Check the audio device card configration by running the command "arecord -l", and change it accordingly as             instructed on line 48 on "SmartSteth24.py". 
+
+For any Inquiries, e-mail me at 1079869@students.adu.ac.ae, thank you! 
+
+      
